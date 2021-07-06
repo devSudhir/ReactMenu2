@@ -14,7 +14,7 @@ function App() {
           return <ListItems listItem={ele} />;
         })}
       </ul>
-      <SendHeadings heading={arr[0]} />
+      <SendHeadings heading={arr[1]} />
       <ul className="random">
         {list2.map((ele) => {
           return <ListItems listItem={ele} />;
