@@ -1,0 +1,11 @@
+.centerDiv {
+  width: 35vw;
+  margin: auto;
+}
+.random li:nth-child(1),
+.random li:nth-child(2) {
+  list-style: square;
+}
+.random li:nth-child(4) {
+  list-style: circle;
+}
